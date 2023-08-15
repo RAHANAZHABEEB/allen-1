@@ -167,20 +167,29 @@
     left: 2%;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transform: translate(-50%,-50%);
 }
 .navy{
     background-color: blue;
 }
 .sub2{
-    background-color: green;
-    position: relative;
+    width:24.5%
+    background-color: blue;
+    
+    position:relative;
+    border-radius:10px;
+    flex-wrap:wrap;
 }
 .sub3{
-    background-color: green;
+    background-color:blue;
     position: relative;
+    border-radius: 10px;
+    flex-wrap: wrap;
 }
 .sub4{
-    background-color: green;
+    background-color:blue;
     position: relative;
 }
 .pic{
